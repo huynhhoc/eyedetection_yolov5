@@ -1,0 +1,9 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: datasets  # dataset root dir
+train: data/train/images  # train images (relative to 'path') 118287 images
+val: data/valid/images  # val images (relative to 'path') 5000 images
+#test: data/test/images  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 11 # number of classes
+names: ['0','1','2','3','4','5','6','7','8','9','10']  # class names
