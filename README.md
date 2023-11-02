@@ -303,9 +303,9 @@ professional support requests please visit [https://ultralytics.com/contact](htt
 Yolov5 has been modified to detect eye object, below are modified contains:
 <details open>
 <summary>eye.yaml </summary>
-nc: 11 # number of classes
+nc: 2 # number of classes
 
-names: ['0','1','2','3','4','5','6','7','8','9','10']  # class names
+names: ['0','1']  # class names
 
 Explanation: although we just detect left eye and right eye, several images from the training dataset have more than one people, it means that those pictures have more than 2 eyes. Elevent is the maximum number of eyes that exist in some pictures in the training dataset.
 
